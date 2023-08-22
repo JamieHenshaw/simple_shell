@@ -62,6 +62,8 @@ int (*get_builtin(char *cmd))(data_shell *datash);
 /* exit_shell.c */
 int exit_shell(data_shell *datash);
 
+/* cmd_exec */
+int cmd_exec(data_shell *datash);
 
 
 #endif
